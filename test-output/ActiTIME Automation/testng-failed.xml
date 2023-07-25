@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTIME Automation]">
+  <test thread-count="5" name="ActiTIME Test Cases(failed)">
+    <classes>
+      <class name="com.actitime.testcases.TaskPageTest">
+        <methods>
+          <include name="deleteFunctionalityTest"/>
+          <include name="changeStatusTest"/>
+          <include name="copyToTaskTest"/>
+          <include name="setUp"/>
+          <include name="assignTaskTest"/>
+          <include name="createNewTaskTest"/>
+          <include name="moveToTaskTest"/>
+          <include name="custAndProjectTabTest"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.TaskPageTest -->
+    </classes>
+  </test> <!-- ActiTIME Test Cases(failed) -->
+</suite> <!-- Failed suite [ActiTIME Automation] -->

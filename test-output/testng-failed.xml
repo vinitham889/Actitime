@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTIME Automation Demo]">
+  <listeners>
+    <listener class-name="com.actitime.ExtentReportListener.ExtentReportListener"/>
+    <listener class-name="com.actitime.ExtentReportListener.CustomizeReport"/>
+    <listener class-name="com.actitime.ExtentReportListener.TestListenersLogs"/>
+    <listener class-name="com.actitime.analyzer.AnalyzerTransformer"/>
+  </listeners>
+  <test thread-count="5" name="ActiTIME Test Cases(failed)">
+    <classes>
+      <class name="com.actitime.testcases.TestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="capacityPlanningTest"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.TestCases -->
+    </classes>
+  </test> <!-- ActiTIME Test Cases(failed) -->
+</suite> <!-- Failed suite [ActiTIME Automation Demo] -->
